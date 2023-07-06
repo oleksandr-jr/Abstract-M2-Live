@@ -11,8 +11,8 @@
     <modules>
         <module>L9-Object</module>
         <module>L10-Recursion</module>
-        <module>M11-Thread-EXM</module>
-        <module>M12-Thread-2</module>
+        <module>L11-Thread-EXM</module>
+        <module>L12-Thread-2</module>
     </modules>
 
     <properties>
