@@ -10,6 +10,7 @@ import org.javarush.FM.transport.DeliveryType;
 import org.javarush.FM.transport.Ship;
 import org.javarush.FM.transport.Transport;
 
+import java.util.Objects;
 
 
 public class Demo {
@@ -22,5 +23,12 @@ public class Demo {
 
     }
 
+
+    public class GenericStatic {
+        public static <T> T someStaticMethod(T genericObject) {
+            System.out.println(genericObject);
+            return genericObject;
+        }
+    }
 
 }
